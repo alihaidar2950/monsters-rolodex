@@ -20,7 +20,7 @@ class App extends Component {
   }
 
   handleChange = (e) => {
-    this.setState({ searchField: e.target.value });
+    this.setState({ searchField: e.target.value, title: e.target.value });
   };
 
   render() {
